@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+myFavouriteFruits = ["banana","apple","mango","lime","avocado"]
+for fruit in myFavouriteFruits:
+    print(fruit)
+
+my_favourite_fruits = ["banana","apple","mango","lime","avocado"] 
+for fruit in my_favourite_fruits:
+     print(len(my_favourite_fruits))
+
+friends = ["Phoebe","Joey","Chandler","Monica","Ross"] 
+print(friends)
+friends[4] = "Mary"
+print(friends)
+print("-------------------------------")
+new_friends = friends.copy()
+print(friends.copy)
+new_friends.sort
+print(new_friends)
+
+new_friends.pop() 
+new_friends.sort()
